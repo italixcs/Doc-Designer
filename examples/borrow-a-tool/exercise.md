@@ -15,6 +15,8 @@ This is a fictional demonstration fixture. It has no connection to a real librar
 
 No palette or specialist tool is prescribed: choosing appropriately is part of the task. A styled native table is acceptable. Extra tool calls are not a success criterion.
 
+The first maintainer trial was rejected as too generic. Treat file correctness and visual design as separate outcomes. A larger title, bold reminder, or stock table fill alone does not establish a successful redesign. Do not use a rejected trial as the finished public showcase.
+
 ## Review
 
 - All supplied facts preserved, no invented rules.

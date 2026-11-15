@@ -46,7 +46,7 @@ No paid API, external upload, account, or proprietary font is required. Optional
 
 Try [Borrow a tool](examples/borrow-a-tool/exercise.md): redesign a one-page fictional community handout. The [basic Word file](examples/borrow-a-tool/before.docx), [PDF](examples/borrow-a-tool/before.pdf), source, and exact prompt are included.
 
-The maintainer's before-and-after screenshots are still pending. This is a ready-to-use release candidate; no finished showcase or universal quality improvement is claimed.
+The first maintainer trial did not meet the intended visual-design standard: it improved formatting but remained generic. The current revision adds a separate design-acceptance gate. A public showcase still needs visual acceptance; no consistent improvement or finished showcase is claimed.
 
 ## Evidence
 

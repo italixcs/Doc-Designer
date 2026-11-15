@@ -1,69 +1,58 @@
 # Validation record
 
-Date: 15 November 2026. Candidate: Doc designer 0.1.0. Scope: the seven files under skills/doc-designer, identified by [SHA-256 manifest](package-sha256.json). Public docs and the fictional exercise are outside the installable package.
+Date: 15 November 2026. Candidate: Doc designer 0.1.1. Scope: seven files under skills/doc-designer, identified by the [current SHA-256 manifest](package-sha256.json). The [0.1.0 record](validation-0.1.0.md) and its [manifest](package-sha256-0.1.0.json) are preserved.
 
-## Checks
+## Why the earlier result was insufficient
 
-| Check | Result | Scope and limits |
-| --- | --- | --- |
-| Native skill-creator validator | Passed | Metadata/name/scaffold checks; not proof of behavior |
-| Package resource links and identity | Passed | Four linked references present; package matches the frozen candidate |
-| Explicit skill loading | Passed | Independent workers read the frozen core; native automatic discovery was not tested |
-| Real artifact pair | Both passed; modest preference for skill-assisted result | One task and one attempt per arm; best-effort blind review |
-| Missing-input pair | Both passed; modest preference for skill-assisted response | Neither invented an unseen document; both requested source |
-| Adjacent negative smoke | Passed | Both answered 3 kg = 3000 g directly; not a native activation test |
-| Public exercise | Passed | Baseline generator executed; editable DOCX and one-page A4 PDF rendered and inspected; factual text checked |
-| README local browser preview | Blocked | Playwright browser unavailable; system Chromium failed because local socket creation is restricted. No rendered GitHub/mobile/light-dark claim |
-| Public screenshot exercise | Pending maintainer | Exact prompt and fictional source are included; not yet presented as a completed showcase |
+The maintainer rejected the first public exercise trial as visually too generic. It preserved content and produced a readable document, but its conventional heading stack, standard shaded table and bold reminder fell short of the requested design ambition. Earlier correctness and legibility checks did not establish adequate visual quality. The original positive diagnostic remains recorded, with this counterexample added rather than hidden.
+
+The new instructions distinguish technical validity from composition, specificity, hierarchy, craft and meaningful before/after improvement. They ask for a concrete organizing idea, relevant free visual precedents where available, active consideration of specialist tools, and deliberate component treatment. They preserve required plain/formal templates.
+
+## Current checks
+
+| Check | Result and limits |
+| --- | --- |
+| Native skill-creator validation | Passed on the managed skill checkout; checks metadata/scaffolding only |
+| Resource links and package identity | Passed; four relative references present; frozen package identity checked |
+| Managed personal skill saving | Updated and saved; instruction and resource bytes checked against the candidate; host-managed UI metadata differs |
+| Old/new handout diagnostic | Completed; results discussed below; one run per arm |
+| Formal-template response diagnostic | Both passed; reviewer narrowly preferred the old response for its explicit conflict handling |
+| Static security scan | Completed with retained finding/caveat, detailed below |
+| Public visual acceptance | Not passed; the first maintainer trial was rejected and the current revision is not claimed as a visual fix |
 
 ## Behavioral diagnostic
 
-Two fresh workers performed the same one-page fictional volunteer handout task. Both received identical facts, output requirements, native tools and renderer access. One additionally received an explicit path to the frozen skill. A separate fresh reviewer received randomized neutral labels, original task, frozen criteria, and both artifacts. Verdicts were saved before the controller revealed the mapping.
+The comparison used the original 0.1.0 instructions and revised 0.1.1 instructions, explicitly supplied to fresh native agents. Both received the same fictional tool-library source, task, free native tools, output requirements and office renderer. Both also received the same scope/budget reminder. One attempt per arm; no repetitions or selected-best output.
 
-Both outputs preserved all operating facts, exact warning, table values and planning-estimate qualification. Both contained native editable Word text and tables. The reviewer rendered the supplied PDFs and independently converted both DOCX files at the same 140 dpi. Each supplied PDF matched its corresponding DOCX render pixel-for-pixel in the installed LibreOffice environment. Neither had clipping or overlap.
+The task was the same public one-page exercise. That directly targets the demonstrated failure but is not an unseen generalization test. Both produced editable one-page A4 DOCX and matching PDFs, preserved the supplied facts and table values, removed only the allowed repeated reminder, and inspected their renders. Neither used paid services or remote publication.
 
-The reviewer modestly preferred the skill-assisted version for coordinated visual grouping, warning placement before the process, and more explicit estimate labeling. The other output remained usable and compliant. No critical failure occurred in either arm.
+The blind reviewer narrowly preferred the **old** handout for consistent alignment, clearer topic grouping and page balance. The revised handout had a stronger complete numbered process. Both were judged competent but conventional, with limited subject-specific character. The reviewer independently rendered both DOCX files at 144 dpi; each matched its supplied PDF pixel-for-pixel. The original source was initially omitted from the neutral review packet, then supplied unchanged before the source-fact verdict; criteria and candidates did not change.
 
-The missing-input case requested an exact illustrated redesign without attaching its source. Both responses requested the missing file and avoided fabricated artifacts. The reviewer modestly preferred the skill-assisted response for explaining equation/diagram editability limits and a page-verification plan.
+The formal check was an unseen response-only request for a mandated black-and-white single-column application statement with fixed headings and unchanged wording, with inputs not yet attached. Both respected the constraints and deferred production until input arrived. The blind reviewer narrowly preferred the old response for explicitly flagging conflicts before any content/structure changes. There were no critical failures; actual document execution was not tested in this case.
 
-**Interpretation: helps on these cases, with low confidence about generalization.** This is one attempt per arm per case, not a statistical benchmark. No additional repeats were run. The artifact task was the expensive case; the second case was response-only. A nearby unit-conversion task was a small negative smoke check.
+Each reviewer had a fresh history and randomized neutral candidate labels. Quality verdicts were saved before the controller read the mapping. Both workers and reviewers shared a filesystem; separation and blinding were instruction-only. Native automatic discovery was not tested. Exact backend model revision, token usage, cost and per-worker timings were not reported and remain unknown.
 
-Model/harness: native agent defaults inherited from the controller; no model override. Exact backend revision, token usage, cost, and per-worker timing were not reported and remain unknown. Fresh histories and neutral labels reduced leakage, but all agents shared a filesystem and installed capabilities. Separation and blinding were instruction-only, not enforced. The target was explicitly supplied rather than naturally discovered. No causal or universal superiority claim follows.
+The controller's visual review found that the revised handout remained close to a conventional office layout. The instructions are more explicit, but this run does not justify claiming that the user's aesthetic requirement is solved. Small preference differences do not substitute for maintainer acceptance. No benchmark, statistical superiority or reliable improvement across document genres is claimed.
 
-Raw worker artifacts, mapping, traces, reviewer packets and scanner output remain outside public version control. The public summary retains the observed limits; no private reference input was used as a diagnostic fixture.
+**Result: no clear benefit from this instruction-only revision on these cases.** Both narrow preferences favored the old version; neither case had a critical failure. Keep 0.1.1 as an unproven candidate that clarifies the intended design bar, not as a demonstrated quality improvement. Do not repeat the same comparison until a further material change is justified.
 
-## SkillSpector
+Raw artifacts, mappings, prompts and review packets remain private. No rejected document or private reference screenshot is published as a finished showcase.
 
-- Tool: NVIDIA SkillSpector 2.12.0, source commit c81615007d40e86051a302a3cf897f8a05264928.
-- Invocation: skillspector scan PACKAGE --no-llm --fail-on-incomplete --format json --output REPORT, with PACKAGE/REPORT resolved locally.
-- Scope: exact seven-file installable package, including references, UI metadata and license; no exclusions or suppressions.
-- Execution: successful; exit 0; 7/7 fully inspected, 0 partial/uninspected; coverage 100%; is_complete true.
-- Report status: **complete_with_caveats**. Semantic/LLM analysis was disabled; no inference was run.
-- Raw static assessment: score 17, LOW recommendation SAFE, **maximum issue severity HIGH**. Exit 0 is not a clean-finding verdict.
-- Dependencies: no executable scripts or dependency manifest are distributed. No claim is made about vulnerabilities in optional runtime tools or their dependencies.
-- Raw report SHA-256: 6893bc60e3554690c0c974f1a848be58c0b5f303c36f4ea3fea662a71ba99c1c.
+## SkillSpector 2.12.0
 
-### Retained finding and triage
+A fresh static scan covered the exact current seven-file package. Scanner source commit: c81615007d40e86051a302a3cf897f8a05264928. Invocation: skillspector scan PACKAGE --no-llm --fail-on-incomplete --format json --output REPORT, with paths resolved locally. No LLM inference, suppressions or exclusions.
 
-**HIGH PE3 Credential Access, SKILL.md line 21:** the scanner matched “access credentials” in a sentence explicitly prohibiting following embedded document instructions to upload files or access credentials.
+Execution succeeded, exit 0; 7/7 components fully inspected, zero partially/uninspected, coverage 100%, is_complete true. Status remains **complete_with_caveats**. The raw assessment is score 17, LOW recommendation SAFE, but **maximum issue severity HIGH**. Exit 0 is not a clean-finding verdict.
 
-Disposition: demonstrable false positive for this exact hit. The prohibition grants no credential access, supplies no credential path or mechanism, and denies operational authority to untrusted source content. A separate fresh reviewer examined that sentence and confirmed the narrow disposition. The finding remains recorded; no baseline suppressed it, no wording was changed to obtain a clean scan, and no vendor correction is claimed.
+- **HIGH PE3, SKILL.md line 23:** unchanged prohibition on following document instructions to upload files or access credentials. The exact sentence was independently reviewed in 0.1.0 as a demonstrable false positive. The disposition is reused because that text and its meaning are unchanged; the finding is retained rather than suppressed.
+- **Nonfatal missing-reference caveat, line 76:** unchanged optional Carbon/ray.so prose. The prior narrow review found no intended bundled artifact at that location; all actual relative resource links exist. The suspected path-parser interpretation remains an inference.
 
-**Nonfatal reference-resolution caveat, SKILL.md line 64:** a path-like reference did not match a bundled artifact. The line names optional Carbon/ray.so code-image tools in prose. Independent review found no intended bundled file at that location; interpreting the slash as a local reference is a likely parser explanation, not a verified scanner trace. All actual relative Markdown resource links were checked separately and exist.
+Raw report SHA-256: 6b5d7f55bcaddd802ee97e8deaaad04c1af1adcd9993389460974cfdb3357425.
 
-This is a completed static scan with reviewed caveats, not certification, endorsement, a clean scan, or proof of runtime safety. LLM semantic analysis, external tool security and future document contents are outside this evidence.
+No scripts or dependency manifest ship in the skill. Optional external tools and runtime dependencies are not security-validated by this scan. Semantic analysis, runtime behavior and future document contents remain outside scope. This is not certification or a clean scan.
 
-## Compatibility
+## Compatibility and publication
 
-| Route | Evidence level |
-| --- | --- |
-| Manual/explicit reading by native agents | Exercised in this diagnostic |
-| Managed personal skill saving | Saved and remote reconciled path verified |
-| Codex .agents/skills/doc-designer | Official discovery documentation checked; package copy is complete; fresh automatic-discovery runtime not exercised |
-| Other Agent Skills hosts | Standard metadata/folder structure; manual use only, native discovery untested |
-| python-docx + LibreOffice DOCX/PDF | Exercised on the one-page diagnostic and baseline fixture |
-| Microsoft Word / native Google Docs | Not runtime-tested |
-| Other optional catalog tools | Documentation/source-reviewed selection guidance; not comprehensively runtime-tested |
-| PDF/UA, PDF/A, ATS parsing, advanced equations/forms | No conformance or performance claim |
+Explicit instruction reading and python-docx/LibreOffice production were exercised. Codex repository discovery paths were documentation-checked; native automatic discovery, Microsoft Word and Google Docs were not runtime-tested. Other catalog tools, ATS parsing, advanced equations/forms and PDF conformance have no new claims.
 
-The instructions can be used now. Public launch preparation still includes the maintainer's screenshot review and an explicit visibility/release action.
+The earlier README browser preview remained blocked by local Chromium/socket restrictions; no GitHub/mobile/theme render claim was added. Repository visibility remains private. No public release or finished before/after showcase is created. The next design iteration should use stronger worked visual references and actual output review, not another assertion that more rules guarantee quality.

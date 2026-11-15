@@ -40,3 +40,16 @@ Do not import nav bars, hover states, scroll animation, sales funnels, mandatory
 ## Critique
 
 Can the reader identify the purpose quickly? Does the opening begin useful work? Is hierarchy visible without color? Is the key figure large enough? Do repeated objects look related? Does each callout deserve attention? Does the result suit its subject rather than a tool default? Fix concrete faults instead of awarding unexplained scores.
+
+## Give familiar content an intentional form
+
+| Common weak result | More deliberate possibility | Why it helps |
+| --- | --- | --- |
+| Every section gets the same heading and paragraph | Distinguish a primary process, a compact reference module, and supporting notes | Makes the reader's different jobs visible |
+| Stock table header plus uniform cells | Prioritize the decision column, set measured widths, use restrained rules, and align labels/numbers consistently | Helps the reader compare rather than merely scan rows |
+| Important reminder made bold in the prose | Give it a deliberate position beside the action it qualifies and a distinct treatment within the visual system | Makes the relationship clear without repeating the message |
+| Technical example boxed by the word processor | Select a proper code/table/diagram renderer where it adds value; harmonize its export with the page | Makes specialist content feel authored |
+| Large title above a generic page | Develop an appropriate opening and page grid, with a subject-specific organizing idea | Changes the composition rather than only its decoration |
+| Extra vertical gaps between all blocks | Group related items tightly and reserve larger gaps for actual changes in meaning | Creates rhythm and avoids an accidental empty tail |
+
+Do not prescribe one solution across genres. A resume, scholarly analysis, field guide and illustrated showcase should have different densities and structures. A quiet formal page can be well designed; it still needs intentional hierarchy and detail.

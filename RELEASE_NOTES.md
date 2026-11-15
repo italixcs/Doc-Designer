@@ -1,4 +1,20 @@
-# Doc designer 0.1.0 — release candidate
+# Doc designer 0.1.1 — revised candidate
+
+15 November 2026
+
+The first maintainer trial was readable and technically valid but visually too generic. This revision changes the design instructions; it does not claim that the aesthetic problem is solved.
+
+- Separate technical checks from composition, specificity, hierarchy, craft, and before/after improvement.
+- Require a concrete visual organizing idea for open design briefs, rather than only a clean/professional label.
+- Consider relevant free visual precedents and specialist tools before defaulting to office styling.
+- Add examples of deliberate structure and component treatment, while respecting plain-format and official-template constraints.
+- Preserve the earlier evidence and record the new diagnostic separately.
+
+See [validation](docs/validation.md) for results and limits. Public launch remains pending visual acceptance.
+
+---
+
+# Doc designer 0.1.0 — initial candidate
 
 15 November 2026
 

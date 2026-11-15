@@ -71,3 +71,9 @@ Acceptance: complete portable core; no mandatory paid tools; differentiated use 
 ## What remains a real-world test
 
 The maintainer exercise is a one-page fictional tool-library handout, unrelated to any personal project. It tests a different reader and subject from the internal repair-desk case. It can demonstrate hierarchy, callouts, tables, and consistency, but cannot establish quality across all document genres. Native discovery on additional hosts, Microsoft Word/Google Docs rendering, advanced mathematical layouts, and conformance-specific PDF workflows need their own tests.
+
+## Maintainer feedback and revision
+
+The first maintainer trial was rejected as visually too generic. A stacked heading/paragraph layout, conventional shaded table, and bold reminder met the content and legibility requirements without meeting the intended design ambition. The initial validation therefore set too low a bar for the stated goal.
+
+Version 0.1.1 adds a separate design-acceptance gate, concrete composition decisions, relevant visual-precedent inspection, active consideration of specialist visual tools, and genre-sensitive examples. Technical validity remains necessary, but no longer stands in for visual acceptance. A formal-template smoke check guards against adding decoration where the user explicitly forbids it. The revision must earn its design claims through actual output and review; instruction changes alone are not evidence of success.
