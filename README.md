@@ -48,6 +48,12 @@ Try [Borrow a tool](examples/borrow-a-tool/exercise.md): redesign a one-page fic
 
 The first maintainer trial did not meet the intended visual-design standard: it improved formatting but remained generic. The current revision adds a separate design-acceptance gate. A public showcase still needs visual acceptance; no consistent improvement or finished showcase is claimed.
 
+## Design directions under review
+
+Three [original A4 specimens](examples/design-specimens/README.md) explore a community guide, a study sheet, and an analytical brief. Each includes editable DOCX, matching PDF, source and a preview. The [source map](docs/design-source-map.md) records which real references were inspected and how free tools can reproduce useful patterns. These are review candidates; no improved skill performance or accepted before/after is claimed.
+
+Code-image preference: **ray.so**, with raw code retained. The editor preview was tested; export did not complete in the research browser.
+
 ## Evidence
 
 [Research and plan](docs/research-and-plan.md) explains the scope and source decisions. [Validation](docs/validation.md) records structural, behavioral, security, and compatibility evidence, including their limits.

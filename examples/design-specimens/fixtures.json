@@ -1,0 +1,21 @@
+{
+  "study": {
+    "Morning": 12,
+    "Afternoon": 18,
+    "Evening": 9
+  },
+  "budget": {
+    "Paper": [
+      120,
+      180
+    ],
+    "Ink": [
+      80,
+      90
+    ],
+    "Binding": [
+      50,
+      60
+    ]
+  }
+}

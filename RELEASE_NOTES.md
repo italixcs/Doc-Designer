@@ -40,3 +40,10 @@ See [the dated validation record](docs/validation.md) for exact scope, package h
 ## Before public launch
 
 Run the [tool-library exercise](examples/borrow-a-tool/exercise.md), review the DOCX/PDF and comparable before-and-after screenshots, then update the showcase and these notes. The repository's current visibility is preserved; no public GitHub release or visibility change is part of this preparation.
+
+## Unreleased research checkpoint — 15 November 2026
+
+- Add a source map that distinguishes inspected pages from broader discovery platforms.
+- Add three original A4 design specimens, editable DOCX files, matching PDFs, previews, fictional data and reproducible source.
+- Record ray.so as the preferred code-image route, including the observed browser export limitation.
+- Keep skill version 0.1.1 unchanged; the specimens await visual review and are not a demonstrated skill improvement or public before/after showcase.

@@ -77,3 +77,9 @@ The maintainer exercise is a one-page fictional tool-library handout, unrelated 
 The first maintainer trial was rejected as visually too generic. A stacked heading/paragraph layout, conventional shaded table, and bold reminder met the content and legibility requirements without meeting the intended design ambition. The initial validation therefore set too low a bar for the stated goal.
 
 Version 0.1.1 adds a separate design-acceptance gate, concrete composition decisions, relevant visual-precedent inspection, active consideration of specialist visual tools, and genre-sensitive examples. Technical validity remains necessary, but no longer stands in for visual acceptance. A formal-template smoke check guards against adding decoration where the user explicitly forbids it. The revision must earn its design claims through actual output and review; instruction changes alone are not evidence of success.
+
+## Reference-led specimen checkpoint
+
+The next iteration now has an explicit [source map](design-source-map.md) and three [original editable specimens](../examples/design-specimens/README.md). Relevant rendered template/report pages were inspected, useful patterns were separated from template limitations, and free production routes were recorded. The specimens explore a visitor guide, a practice sheet and an analytical brief. Each final DOCX was exported and its one-page A4 PDF visually reviewed. The core package remains unchanged pending review of these directions; this work is not a new performance evaluation or a finished public before/after.
+
+ray.so is the preferred code-artwork route. Actual editing and preview were tested with fictional SQL; browser export did not finish. Raw SQL and reproducible settings are provided without claiming a completed exported asset.
