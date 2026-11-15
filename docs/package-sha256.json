@@ -1,0 +1,9 @@
+{
+  "LICENSE": "c4ff2c1fe30dae18fe0cd4a1c2c3cf074820f783135c44c93fdf4aa6d1bbef5f",
+  "SKILL.md": "2f72b25b05019d11d1c7267291da0ce156ecae406e3292fe37e8d60fe94a8cf1",
+  "agents/openai.yaml": "b427feb683c2960249e2187f3e2bf7e8d551880cbc6bc71514211ecb0c000851",
+  "references/design-patterns.md": "9932f4c8ae3f6eae32056a5970659ec81abd169141e69111f6ce0c8b66946181",
+  "references/free-tools.md": "79d0abea04f182371a866c8fe485eda0df6e583502c5891c7d28af3341af49a4",
+  "references/production.md": "be18ec2b340f833dd2d5248fdf3478b826eddd2ebeb6d7b1a924a84ff9a6d544",
+  "references/quality-review.md": "c0c5427ecc9c815507218d0fda06eedd3463c4183c8b4e71c139a234e18aa879"
+}

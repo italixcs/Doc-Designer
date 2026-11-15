@@ -1,0 +1,4 @@
+interface:
+  display_name: "Doc designer"
+  short_description: "Design thoughtful Word documents and PDFs"
+  default_prompt: "Use $doc-designer to create or redesign this document for its readers and purpose."
