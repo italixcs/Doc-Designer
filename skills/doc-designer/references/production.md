@@ -7,10 +7,11 @@ Read only the relevant route. Resolve actual paths, versions, permissions, and c
 1. Inventory drawings, equations, fields, revisions, comments, links, headers, footnotes, and other objects before editing. Paragraph extraction alone misses important content.
 2. Build named title, heading, body, caption, table, code, and note styles. Prefer inheritance to direct formatting. Set page size and margins explicitly.
 3. Fit table widths to usable page width. Repeat headers; avoid exact heights on wrapping rows. Prevent short rows splitting where appropriate, but let long tables flow. Simplify merged cells when possible.
-4. Use keep-with-next for headings/captions and widow/orphan controls for prose. Applying it everywhere can move entire sections. Use section breaks for landscape or changed headers and inspect transitions.
-5. Prefer inline figures for stable flow. Test SVG support in the target consumer; retain vector originals with PNG fallbacks when needed.
-6. Update/verify TOC and reference fields through the office renderer. An XML field instruction can have a blank or stale displayed value.
-7. Render the latest file and inspect its pages. Reopening through a library verifies structure, not appearance.
+4. Use native section columns for genuine multi-column reading flow, not tables that merely position prose. Calculate column widths plus gaps against usable page width, and inspect section transitions and reading order. Use a real table for related records and comparisons.
+5. Use keep-with-next for headings/captions and widow/orphan controls for prose. Applying it everywhere can move entire sections. Use section breaks for landscape or changed headers and inspect transitions.
+6. Prefer inline figures for stable flow. Test SVG support in the target consumer; retain vector originals with PNG fallbacks when needed.
+7. Update/verify TOC and reference fields through the office renderer. An XML field instruction can have a blank or stale displayed value.
+8. Render the latest file and inspect its pages. Reopening through a library verifies structure, not appearance.
 
 python-docx exposes distinct paragraph_format properties: keep_with_next, keep_together, page_break_before, and widow_control. Some other features require reviewed OOXML changes; preserve unrelated package parts. Avoid rebuilding a complex source solely from extracted text.
 

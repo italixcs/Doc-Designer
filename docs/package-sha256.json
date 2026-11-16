@@ -1,9 +1,10 @@
 {
   "LICENSE": "c4ff2c1fe30dae18fe0cd4a1c2c3cf074820f783135c44c93fdf4aa6d1bbef5f",
-  "SKILL.md": "cde22226797186d85db78e91727ff6aa3b538f65cf456bd2703e442d18777ea8",
+  "SKILL.md": "89af98bcd554b13192911883b7d9813c124974d30ded2bfbc5a81d9c433e9895",
   "agents/openai.yaml": "b427feb683c2960249e2187f3e2bf7e8d551880cbc6bc71514211ecb0c000851",
   "references/design-patterns.md": "e622e8490f43cccaa28b8055b19404c9e9d45132065667fe4579af0d4279a628",
-  "references/free-tools.md": "79d0abea04f182371a866c8fe485eda0df6e583502c5891c7d28af3341af49a4",
-  "references/production.md": "be18ec2b340f833dd2d5248fdf3478b826eddd2ebeb6d7b1a924a84ff9a6d544",
-  "references/quality-review.md": "c0c5427ecc9c815507218d0fda06eedd3463c4183c8b4e71c139a234e18aa879"
+  "references/free-tools.md": "9de29ebbecd83d437ed5e366d02d4eee15ac57301ff1c71ece6d40dafcbd7529",
+  "references/production.md": "9d099fd76229e474194a379a62d0b53ac4f3638869822e633dd391a9e2a1eb43",
+  "references/quality-review.md": "c0c5427ecc9c815507218d0fda06eedd3463c4183c8b4e71c139a234e18aa879",
+  "references/reference-workflow.md": "4c81746d68880dda620fca7235fdb5e69e5e620aab5d1953f4b6ec11489fbf5d"
 }

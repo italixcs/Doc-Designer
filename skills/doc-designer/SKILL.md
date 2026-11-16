@@ -1,7 +1,6 @@
 ---
 name: doc-designer
 description: Design or redesign thoughtful Word/DOCX documents and PDFs, including study sheets, portfolios, reports, analyses, showcases, resumes, and guides. Use for document layout, typography, visual systems, tables, code, diagrams, and print/export quality. Do not activate for text-only answers, simple file conversion, spreadsheets, slides, or website design without a document-design request.
-license: MIT
 ---
 
 # Doc designer
@@ -28,7 +27,9 @@ Make a short working brief: **reader goal → structure → visual direction →
 
 Start with the supplied theme, brand, or required template. Otherwise choose a fitting tone: instructional, analytical, editorial, technical, formal, or expressive. Avoid turning every topic into the same cover, colored boxes, and three-column layout.
 
-For an open design brief, inspect one or two relevant free visual precedents or available local examples when access permits: actual report pages, editorial spreads, field guides, specialist templates, or well-designed tables. Look for structure and treatment, not just a palette. Record what informs the direction; do not copy assets or invent a research claim. If research is unavailable, work from the brief and disclose that only when material.
+For an open design brief, start with a platform suited to the genre, then inspect one or two actual interior pages or elements. Use Typst Universe for notes/CVs, Quarto or public report archives for analyses, and relevant worksheet/editorial galleries for learning material or showcases. A search result or template cover is not a reviewed precedent. Extract a useful reading pattern, identify a weakness, and choose a free production route for the adaptation. For example: worked explanation beside practice → native Word columns; a contribution finding → a data-driven chart with its ledger; short showcase code → ray.so artwork plus raw source. Do not copy private content or upstream assets. Use a supplied reference instead of searching when it already answers the design question. If access is unavailable, proceed from the brief without claiming research.
+
+For genre-specific discovery and measured composition examples, read [reference-workflow.md](references/reference-workflow.md) when visual direction is open or a first draft looks generic. The examples illustrate decisions, not a universal layout, palette, or requirement to use web tools.
 
 Choose a concrete visual idea, not just adjectives such as clean or professional. Name the organizing device and explain its use: a field-guide index, annotated evidence plates, a typographic comparison, a restrained timeline, an illustrated process, or another content-led treatment. Identify the primary focal point, secondary reading path, and repeated components. A simple formal document may achieve this through typography and alignment alone.
 
@@ -73,7 +74,7 @@ Actively identify visual opportunities before defaulting to the authoring librar
 | Ordinary comparison or data table | A styled native table for editability, search, and repeating headers. Use clear column widths, alignment, units, restrained rules, and cell padding. Native does not mean plain. |
 | Elaborate publication table | Consider free gt or flextable when available. Check the actual DOCX export; HTML appearance does not prove Word fidelity. If rasterized, retain data and an accessible explanation. |
 | Code to copy or edit | Syntax-highlighted editable text, e.g. Pandoc highlighting or Pygments tokens mapped to Word runs. Preserve indentation and semantics; use a mono style and safe wrapping. |
-| Short showcase code | A local Pygments image or free Carbon/ray.so export may fit. Keep exact source alongside it or in a linked deliverable, add a caption/alternative text, and ensure readable final type. Avoid decorative window buttons unless the interface matters. |
+| Short showcase code | Prefer ray.so for code artwork when a free export works and external use is authorized. Match its theme to the page; keep raw source, a caption/alternative text, and readable final type. Use an explicitly disclosed local Pygments fallback if export is blocked. A browser preview or screenshot is not a successful export. Avoid decorative window buttons unless the interface matters. |
 | Quantitative chart | Matplotlib, ggplot2, or another available data-driven tool. Preserve data, units, axes, and uncertainty. Prefer direct labels when clear. Do not use image generation for exact data. |
 | Relationship or process diagram | Mermaid, Graphviz, draw.io Desktop, or authored SVG. Match required notation rather than the nearest tool default. Preserve diagram source. Split unreadable diagrams into views instead of shrinking labels. |
 | Equations | Editable equations where supported; a proper typesetter for complex math. Check symbols and breaks. A screenshot is a fallback. |

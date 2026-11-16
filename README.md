@@ -10,7 +10,7 @@ It can choose a local syntax highlighter, a diagram engine, or a publication-tab
 
 ## Try it
 
-Copy the complete [skills/doc-designer](skills/doc-designer) folder to your agent's supported skill location. It contains the core instructions, four optional references, UI metadata, and the MIT license. No package installation is needed to read the skill.
+Copy the complete [skills/doc-designer](skills/doc-designer) folder to your agent's supported skill location. It contains the core instructions, five optional references, UI metadata, and the MIT license. No package installation is needed to read the skill.
 
 For **Codex**, the [documented](https://learn.chatgpt.com/docs/build-skills) repo-scoped location is:
 
@@ -52,7 +52,9 @@ The first maintainer trial did not meet the intended visual-design standard: it 
 
 Three [original A4 specimens](examples/design-specimens/README.md) explore a community guide, a study sheet, and an analytical brief. Each includes editable DOCX, matching PDF, source and a preview. The [source map](docs/design-source-map.md) records which real references were inspected and how free tools can reproduce useful patterns. These are review candidates; no improved skill performance or accepted before/after is claimed.
 
-Code-image preference: **ray.so**, with raw code retained. The editor preview was tested; export did not complete in the research browser.
+The skill now includes a [reference-to-composition workflow](skills/doc-designer/references/reference-workflow.md): choose a relevant platform, inspect an actual page, identify a transferable pattern, then build an original document with a suitable free route.
+
+Code-image preference: **ray.so**, with raw code retained. The editor preview was tested; export did not complete in the research browser. The skill explicitly distinguishes preview from export and provides a disclosed local fallback.
 
 ## Evidence
 

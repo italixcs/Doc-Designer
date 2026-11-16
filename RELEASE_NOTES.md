@@ -1,3 +1,19 @@
+# Doc designer 0.1.2 — reference-led workflow
+
+16 November 2026
+
+- Add an optional genre-first reference workflow with useful platforms, explicit inspection status, and original composition recipes for guides, learning sheets, briefs, portfolios and formal documents.
+- Connect reference choices to free production routes rather than requiring more tools or copying a template's appearance.
+- Prefer ray.so for short code artwork; retain raw source, verify the downloaded asset, and disclose a local fallback when export is unavailable.
+- Clarify native Word columns versus genuine data tables, and keep mandated wording and formal templates in control.
+- Preserve 0.1.1 evidence and the unsuccessful visual trial. Original specimens remain examples, not accepted before/after evidence.
+
+The small old/new diagnostic found a tie on the document and a narrow preference for the old response on the export edge case; no consistent output-quality improvement is claimed. Both passed the critical requirements. A fresh static scan covered all eight package files, retaining the previously reviewed false positive.
+
+See [current validation](docs/validation.md) for the exact package, diagnostic and scan scope. No public release or repository visibility change is performed.
+
+---
+
 # Doc designer 0.1.1 — revised candidate
 
 15 November 2026

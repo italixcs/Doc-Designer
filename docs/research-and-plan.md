@@ -83,3 +83,8 @@ Version 0.1.1 adds a separate design-acceptance gate, concrete composition decis
 The next iteration now has an explicit [source map](design-source-map.md) and three [original editable specimens](../examples/design-specimens/README.md). Relevant rendered template/report pages were inspected, useful patterns were separated from template limitations, and free production routes were recorded. The specimens explore a visitor guide, a practice sheet and an analytical brief. Each final DOCX was exported and its one-page A4 PDF visually reviewed. The core package remains unchanged pending review of these directions; this work is not a new performance evaluation or a finished public before/after.
 
 ray.so is the preferred code-artwork route. Actual editing and preview were tested with fictional SQL; browser export did not finish. Raw SQL and reproducible settings are provided without claiming a completed exported asset.
+
+
+## Reference workflow integration — 16 November 2026
+
+Version 0.1.2 integrates the source map's genre-first discovery and original composition examples into an optional installable reference. The core stays portable and contains enough guidance to work alone. The recipes are examples, not an approved universal design system. The ray.so preference now includes actual export verification and an explicit fallback. Public example PDFs and build code remain outside the installable package.

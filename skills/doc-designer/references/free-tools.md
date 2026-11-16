@@ -21,7 +21,8 @@ Read when selecting a production or visual tool. No paid account or subscription
 | Need / source | Decision |
 | --- | --- |
 | [Pygments](https://pygments.org/docs/formatters/) | Local lexing to editable Word runs, or SVG/PNG code images; preserve raw source. |
-| [Carbon](https://carbon.now.sh/about), [ray.so](https://ray.so/) | Optional code-image editors. Check free export and privacy; Pygments is the local alternative. |
+| [ray.so](https://ray.so/) | Preferred optional code-artwork editor. Choose a page-compatible theme, language, padding and background; export PNG/SVG if supported. Verify the actual downloaded file, not only the preview. Retain raw source. If export fails or external use is unsuitable, disclose a local Pygments fallback. |
+| [Carbon](https://carbon.now.sh/about) | Alternative optional code-image editor; check current free export and privacy before use. |
 | [gt](https://gt.rstudio.com/reference/gtsave.html), [flextable](https://davidgohel.github.io/flextable/) | Publication tables when an R toolchain is suitable. Actual DOCX and HTML output differ; test the chosen format. gt image/PDF export has extra rendering dependencies. Native Word tables remain a good fallback. |
 | [Matplotlib](https://matplotlib.org/stable/users/explain/figure/backends.html), [ggplot2](https://ggplot2.tidyverse.org/) | Charts generated from actual data; size for the document and save editable source. |
 | [Mermaid CLI](https://github.com/mermaid-js/mermaid-cli), [Graphviz](https://graphviz.org/) | Reproducible diagram source and SVG/PNG; use authored SVG for notation the engine cannot express. |
@@ -30,6 +31,9 @@ Read when selecting a production or visual tool. No paid account or subscription
 | [Google Fonts FAQ](https://developers.google.com/fonts/faq), [Font Library](https://fontlibrary.org/) | Verify font license, language coverage, embedding, and availability. Installed free fonts avoid downloads. |
 
 ## Template discovery
+
+For a genre-first search, inspected-pattern examples, and the transition from reference to an original composition, use the reference-workflow guide linked from SKILL.md. Browse only what the brief needs; no gallery requires registration or copying assets to use the core workflow.
+
 
 - [Typst Universe](https://typst.app/universe/): browse by genre, inspect source and individual package/template licenses. Implementation and starter files can have different terms.
 - [Pandoc reference documents](https://pandoc.org/MANUAL.html#option--reference-doc) and [Quarto Word templates](https://quarto.org/docs/output-formats/ms-word-templates.html): style references for repeatable Word reports. Reference body content is not a page template.
