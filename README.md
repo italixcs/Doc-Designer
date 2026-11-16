@@ -56,6 +56,10 @@ The skill now includes a [reference-to-composition workflow](skills/doc-designer
 
 Code-image preference: **ray.so**, with raw code retained. The editor preview was tested; export did not complete in the research browser. The skill explicitly distinguishes preview from export and provides a disclosed local fallback.
 
+## Four practical trials
+
+The [four-case trial pack](examples/four-case-trial/README.md) provides short and long redesign inputs, matching creation briefs, exact prompts, data/code fixtures and a separate review sheet. These cases are prepared for maintainer testing; no completed outcomes are claimed.
+
 ## Evidence
 
 [Research and plan](docs/research-and-plan.md) explains the scope and source decisions. [Validation](docs/validation.md) records structural, behavioral, security, and compatibility evidence, including their limits.
